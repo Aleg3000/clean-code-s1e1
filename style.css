@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -18,9 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.matrix-container {
-  text-align: center;
-}
+  .matrix-container {
+    text-align: center;
+  }
 }
 .main-wrapper {
   display: block;
@@ -45,7 +45,7 @@ li, h3 {
 input,button{
   outline:none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +54,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -119,12 +119,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.del img {
+.button.del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.del img:hover {
+.button.del img:hover {
   transform: rotateZ(0);
 }
 
