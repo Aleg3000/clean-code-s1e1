@@ -138,13 +138,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.button.del img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.del img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
